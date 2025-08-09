@@ -272,6 +272,12 @@ border-bottom-color: var(--accent-color_heading);
     min-height: 1024px;
     display: grid;
     grid-template-rows: 1fr min-content 1fr;
+    padding-block-start: 15px;
+  }
+
+  .record {
+    right: 22px;
+    top: 20px;
   }
 
   .title-header {
@@ -280,16 +286,21 @@ border-bottom-color: var(--accent-color_heading);
 
   .text-block {
     margin-inline-start: 51.5%;
-    margin-block-end: 5%;
+    margin-block-end: 4.5%;
   }
 
+  .decorated-zone::before {
+    top: 15px;
+    right: 15px;
+  }
+  
   .decorated-zone::after {
     margin-block-end: 18px;
     margin-inline-start: 20px;
   }
 
   .content {
-    padding-block-start: 30px;
+    padding-block-start: 40px;
   }
 
   .difficult {
@@ -338,6 +349,8 @@ border-bottom-color: var(--accent-color_heading);
     object-fit: cover;
     grid-auto-flow: dense;
     min-height: 780px;
+    padding-block-start: 6px;
+    padding-inline-end: 6px;
   }
 
   .image {
@@ -388,6 +401,11 @@ border-bottom-color: var(--accent-color_heading);
     grid-template-rows: 1fr min-content 1fr;
   }
 
+  .record {
+    right: 27px;
+    top: 26px;
+  }
+
   .header__theme-menu {
     justify-self: center;
     padding-block-start: 0;
@@ -411,10 +429,11 @@ border-bottom-color: var(--accent-color_heading);
   }
 
   .text-block {
-    margin-inline-start: 51%;
+    margin-inline-start: 50%;
     max-height: 71px;
-    margin-block-end: 4%;
-  }
+    margin-block-end: 1%;
+    margin-inline-end: 8px;
+    }
 
   .text-block br {
     content: "";
@@ -430,8 +449,21 @@ border-bottom-color: var(--accent-color_heading);
     white-space: pre;
   }
 
+  .content {
+    padding-block-start: 47px;
+  }
+
   .difficult {
     gap: 25px;
+    padding-inline-end: 17px;
+  }
+  .difficult-title {
+    margin-inline-start: 11px;
+  }
+
+  .attention {
+    margin-inline-start: 10px;
+    padding-inline-end: 20px;
   }
 
   .attention-title {
@@ -445,7 +477,9 @@ border-bottom-color: var(--accent-color_heading);
   }
 
   .goldfish {
-    gap: 10px
+    gap: 10px;
+    padding-inline-end: 18px;
+    margin-inline-start: 11px;
   }
 
   .goldfish-title br {
@@ -453,8 +487,22 @@ border-bottom-color: var(--accent-color_heading);
     display: none;
   }
 
+  .pictures {
+    margin-inline-start: 13px;
+  }
+
+  .images-title {
+    margin-block-end: 5px;
+    margin-inline-end: 9px;
+  }
+
+  .decorated-zone::before {
+    top: 24px;
+    right: 18px;
+  }
+
   .decorated-zone::after {
-    margin-block-end: 21px;
-    margin-inline-start: 17px;
+    margin-block-end: 13px;
+    margin-inline-start: 13px;
   }
 }
