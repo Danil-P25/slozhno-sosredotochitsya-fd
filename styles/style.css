@@ -400,14 +400,14 @@ border-bottom-color: var(--accent-color_heading);
     min-height: 768px;
     display: grid;
     grid-template-rows: 1fr min-content 1fr;
-    padding-block-start: 32px;
-    padding-inline-end: 22px;
+    padding-block-start: 12px;
+    padding-inline-end: 15px;
     padding-inline-start: 0;
   }
 
   .record {
-    right: 37px;
-    top: 38px;
+    right: 30px;
+    top: 20px;
   }
 
   .header__theme-menu {
@@ -433,9 +433,9 @@ border-bottom-color: var(--accent-color_heading);
   }
 
   .text-block {
-    margin-inline-start: 50%;
+    margin-inline-start: 51%;
     max-height: 71px;
-    margin-block-end: 1%;
+    margin-block-end: 2.5%;
     margin-inline-end: 8px;
   }
 
@@ -454,7 +454,7 @@ border-bottom-color: var(--accent-color_heading);
   }
 
   .content {
-    padding-block-start: 47px;
+    padding-block-start: 30px;
   }
 
   .section {
@@ -464,22 +464,21 @@ border-bottom-color: var(--accent-color_heading);
   .difficult {
     gap: 10px;
     padding-inline-start: 10px;
-    padding-inline-end: 30px;
+    padding-inline-end: 22px;
     padding-block-start: 10px;
   }
 
   .difficult-title {
-    margin-inline-start: 0;
+    margin-inline-start: 5px;
   }
 
   .attention {
     margin-inline-start: 2px;
-    padding-inline-end: 30px;
-    padding-inline-start: 10px;
+    padding-inline: 20px;
   }
 
   .attention-title {
-    margin-block-start: 42px;
+    margin-block-start: 40px;
   }
 
   .card-concentration {
@@ -508,29 +507,29 @@ border-bottom-color: var(--accent-color_heading);
   }
 
   .images-title {
-    margin-inline-end: 28px;
+    margin-inline-end: 25px;
   }
 
   .gallery {
-    padding-inline-end: 35px;
+    padding-inline-end: 28px;
   }
 
   .decorated-zone::before {
-    top: 36px;
-    right: 28px;
+    top: 22px;
+    right: 22px;
   }
 
   .decorated-zone::after {
-    margin-block-end: 0px;
-    margin-inline-start: 2px;
+    margin-block-end: 10px;
+    margin-inline-start: 5px;
   }
 
   .footer {
-    margin-block-start: 42px;
+    margin-block-start: 50px;
   }
 
   .title-footer {
-    padding-block-start: 30px;
+    padding-block-start: 14px;
     padding-block-end: 0px;
     padding-inline-start: 0px;
     padding-inline-end: 10px;
