@@ -4,8 +4,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
   background-color: var(--bg-color);
   background-image: var(--bg-image);
   z-index: 2;
@@ -29,30 +27,31 @@
   font-size: var(--text-size, 18px);
   line-height: 25px;
   color: var(--accent-color);
+  display: var(--display);
 }
 
 .record::after {
   content: "";
   position: relative;
-  display: inline-block;  
-  width: 9px;  
-  height: 9px;  
-  background-color: var(--accent-color); 
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  background-color: var(--accent-color);
   box-shadow: 0px 0px 4px 2px var(--accent-color);
   border-radius: 50%;
   margin-block-end: 2px;
 }
 
 .decorated-zone {
-  position: relative; 
+  position: relative;
   min-height: 648px;
 }
 
 .decorated-zone::before, .decorated-zone::after {
   content: '';
   display: block;
-  width: 25px;   
-  height: 25px;  
+  width: 25px;
+  height: 25px;
   position: absolute;
   z-index: 1;
 }
@@ -94,7 +93,6 @@
 .header__theme-menu-button {
   background-color: transparent;
   text-transform: lowercase;
-  border: none;
   cursor: pointer;
   border: 1px solid transparent;
   height: 26px;
@@ -104,14 +102,14 @@
   border-color: var(--accent-color_heading);
 }
 
-.header__theme-menu-button:focus{
+.header__theme-menu-button:focus {
 border-bottom-color: var(--accent-color_heading);
 }
 
 .header__theme-menu-button:focus-visible {
   outline: none; 
   text-decoration: underline; 
-  border: none;  
+  border: none;
 }
 
 .header__theme-menu-button_active {
@@ -126,6 +124,7 @@ border-bottom-color: var(--accent-color_heading);
   line-height: 83%;
   color: var(--accent-color_title);
   display: inline-block;
+  text-shadow: 2px 2px 0 var(--accent-color);
 }
 
 .title-header {
@@ -253,7 +252,7 @@ border-bottom-color: var(--accent-color_heading);
 .image {
   object-fit: contain;
   width: 100%;
-  height: auto; 
+  height: auto;
 }
 
 .footer {
@@ -265,10 +264,6 @@ border-bottom-color: var(--accent-color_heading);
   min-height: 668px;
   margin-block-start: 40px;
   background-color: var(--bg-color);
-}
-
-.title_header-footer{
-  text-shadow: 2px 2px 0 var(--accent-color);
 }
 
 @media (width >= 768px) {
