@@ -423,6 +423,7 @@
     justify-self: center;
     padding-block-start: 0;
     padding-block-end: 13%;
+    margin: 0 10px 70px 0;
   }
 
   .header__theme-menu-list {
@@ -471,13 +472,9 @@
 
   .difficult {
     gap: 10px;
-    padding-inline-start: 10px;
-    padding-inline-end: 22px;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
     padding-block-start: 10px;
-  }
-
-  .difficult-title {
-    margin-inline-start: 5px;
   }
 
   .attention {
@@ -493,7 +490,7 @@
   .goldfish {
     gap: 0px;
     padding-inline-end: 2px;
-    margin-inline-start: 11px;
+    margin-inline-start: 20px;
   }
 
   .goldfish-title br {
@@ -502,19 +499,11 @@
   }
 
   .content-recommendations {
-    padding-inline-end: 25px;
+    padding-inline-end: 20px;
   }
 
   .pictures {
-    margin-inline-start: 20px;
-  }
-
-  .images-title {
-    margin-inline-end: 25px;
-  }
-
-  .gallery {
-    padding-inline-end: 28px;
+    margin-inline: 20px;
   }
 
   .decorated-zone::before {
