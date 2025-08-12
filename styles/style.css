@@ -189,6 +189,7 @@
   font-size: var(--text-size, 18px);
   line-height: var(--l-heigth, 23.4px);
   color: var(--accent-color_text);
+  margin-bottom: 10px;
 }
 
 .link-text {
