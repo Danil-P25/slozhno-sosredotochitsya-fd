@@ -198,7 +198,7 @@
 }
 
 .link-text:hover {
-  border-bottom: 1px solid var(--accent-color_heading);
+  border-bottom: 1px solid var(--accent-color_text);
 }
 
 .link-text:focus-visible {
@@ -230,7 +230,7 @@
 }
 
 .goldfish-title_item {
-  font-size: var(--text-size, 18px);
+  font-weight: 400;
 }
 
 .content-heading {
@@ -280,7 +280,6 @@
 
 @media (width >= 768px) {
   .header {
-    height: 100vh;
     min-height: 1024px;
     display: grid;
     grid-template-rows: 1fr min-content 1fr;
@@ -316,10 +315,6 @@
   .decorated-zone::after {
     margin-block-end: 10px;
     margin-inline-start: 10px;
-  }
-
-  .content {
-    padding-block-start: 40px;
   }
 
   .difficult {
@@ -366,7 +361,6 @@
   }
 
   .gallery {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     gap: 13px;
@@ -414,10 +408,7 @@
 
 @media (width >= 1024px) {
   .header {
-    height: 100vh;
     min-height: 768px;
-    display: grid;
-    grid-template-rows: 1fr min-content 1fr;
     padding-block-start: 12px;
     padding-inline-end: 15px;
     padding-inline-start: 0;
@@ -490,7 +481,6 @@
   }
 
   .attention {
-    margin-inline-start: 2px;
     padding-inline: 20px;
   }
 
@@ -533,18 +523,11 @@
   }
 
   .decorated-zone::after {
-    margin-block-end: 10px;
     margin-inline-start: 5px;
-  }
-
-  .footer {
-    margin-block-start: 60px;
   }
 
   .title-footer {
     padding-block-start: 14px;
-    padding-block-end: 0px;
-    padding-inline-start: 0px;
     padding-inline-end: 10px;
   }
 }
