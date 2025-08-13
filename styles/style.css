@@ -191,8 +191,8 @@
   color: var(--accent-color_text);
 }
 
-.card-item .content-text:not(:last-of-type) {
-margin-bottom: 1rem;
+.content-text:not(:last-of-type) {
+  margin-bottom: 1rem;
 }
 
 .link-text {
